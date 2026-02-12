@@ -1,0 +1,40 @@
+{
+  "permissions": {
+    "allow": [
+      "Write(*)",
+      "Bash(git worktree:*)",
+      "Bash(npm run check:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npm install)",
+      "Bash(npm run build:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run test:*)",
+      "Bash(npm run lint)",
+      "Bash(npx vitest run)",
+      "Bash(git stash:*)",
+      "Bash(git diff:*)",
+      "Bash(npx tsx:*)",
+      "Bash(npm run db:push:*)",
+      "Bash(npx vitest:*)",
+      "Bash(npm run db:create:*)",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(taskkill:*)",
+      "Bash(taskkill /F /PID 97908)",
+      "Bash(timeout:*)",
+      "Bash(curl:*)",
+      "Bash(ping:*)",
+      "Bash(gh pr list:*)",
+      "Bash(where:*)",
+      "Bash(git push:*)",
+      "Bash(npm run db:seed:*)",
+      "Bash(CLINIC_ID=:*)",
+      "Bash(CLIENT_ID=:*)",
+      "Bash(gh pr create:*)",
+      "Bash(gh api:*)",
+      "Bash(git rm:*)",
+      "Bash(git push)",
+      "Bash(git add:*)"
+    ]
+  }
+}
